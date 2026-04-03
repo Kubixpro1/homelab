@@ -5,24 +5,26 @@ This folder contains documentation for each self-hosted service running in my ho
 ## 📁 Structure
 ```
 services/
+├── README.md
 ├── home-assistant/
 │   └── README.md
 ├── jellyfin/
-│   └── README.md
+│   ├── README.md
+│   ├── jellyfin.md
+│   └── jellyseerr.md
+├── arr-stack/
+│   ├── README.md
+│   ├── radarr.md
+│   ├── prowlarr.md
+│   └── qbittorrent.md
 ├── pihole/
 │   └── README.md
 ├── grocy/
 │   └── README.md
-├── pterodactyl/
+├── seerr/
 │   └── README.md
-├── radarr/
-│   └── README.md
-├── prowlarr/
-│   └── README.md
-├── qbittorrent/
-│   └── README.md
-└── jellyseerr/
-└── README.md
+└── pterodactyl/
+    └── README.md
 ```
 ## 📊 Overview
 
@@ -30,7 +32,7 @@ services/
 |----------------|------|-------|--------------------------------|
 | Home Assistant | VM   | 8123  | Smart home automation          |
 | Jellyfin       | LXC  | 8096  | Media server                   |
-| Jellyseerr     | LXC  | 5055  | Media request management       |
+| Seerr          | LXC  | 5055  | Media request management       |
 | Pi-hole        | LXC  | 90    | DNS ad blocker                 |
 | Grocy          | LXC  | 80    | Household management           |
 | Pterodactyl    | LXC  | 90    | Game server panel              |
