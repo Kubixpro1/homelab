@@ -51,7 +51,7 @@ The system consists of:
 - Proxmox host
 - LXC containers for services
 - Internal network communication
-
+```
 Internet
    |
 Router
@@ -66,6 +66,7 @@ Router
    ├── Prowlarr
    ├── qBittorrent
    └── Seerr
+```
 
 ## 🛠️ Skills Demonstrated
 
