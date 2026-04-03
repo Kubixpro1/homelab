@@ -11,7 +11,7 @@ services/
 ├── jellyfin/
 │   ├── README.md
 │   ├── jellyfin.md
-│   └── jellyseerr.md
+│   └── seerr.md
 ├── arr-stack/
 │   ├── README.md
 │   ├── radarr.md
@@ -20,8 +20,6 @@ services/
 ├── pihole/
 │   └── README.md
 ├── grocy/
-│   └── README.md
-├── seerr/
 │   └── README.md
 └── pterodactyl/
     └── README.md
