@@ -53,20 +53,19 @@ The system consists of:
 - Internal network communication
 
 Internet
-|
+   |
 Router
-|
-Proxmox (Raspberry Pi 5)
-├── Home Assistant
-├── Jellyfin
-├── Jellyseerr
-├── Pi-hole
-├── Grocy
-├── Pterodactyl
-├── Radarr
-├── Prowlarr
-├── qBittorrent
-└── Seerr
+   |
+192.168.8.103 (Proxmox - Raspberry Pi 5)
+   ├── Home Assistant
+   ├── Jellyfin
+   ├── Pi-hole
+   ├── Grocy
+   ├── Pterodactyl
+   ├── Radarr
+   ├── Prowlarr
+   ├── qBittorrent
+   └── Seerr
 
 ## 🛠️ Skills Demonstrated
 
